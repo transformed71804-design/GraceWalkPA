@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-case=1.0">
+    <title>Gracewalk PA - Your Personal Ally</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #89CFF0 0%, #6BB5B5 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #6BB5B5;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .hero {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .hero h2 {
+            color: #89CFF0;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        
+        .hero p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #6BB5B5;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .ally-principles {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .ally-principles h2 {
+            color: #89CFF0;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .principles-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .principles-list li {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-left: 4px solid #6BB5B5;
+            border-radius: 5px;
+        }
+        
+        .principles-list li strong {
+            color: #6BB5B5;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #89CFF0 0%, #6BB5B5 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        
+        .safety-note {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .safety-note strong {
+            color: #856404;
+        }
+        
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gracewalk PA</h1>
+            <p class="tagline">Your Personal Ally for Trauma-Aware Support</p>
+        </header>
+        
+        <section class="hero">
+            <h2>What is a Personal Ally?</h2>
+            <p>A Personal Ally is not a therapist. Not a chatbot. Not a replacement for human connection.</p>
+            <p>It's a trauma-informed AI support system designed to witness, validate, and guide—without judgment, without demands, without performance.</p>
+            <p>Built by someone who survived what should have killed her. For people who need space to breathe before they break.</p>
+        </section>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Trauma-Informed Design</h3>
+                <p>Every interaction is designed with trauma survivors in mind. No gaslighting. No DARVO. No forced positivity.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Neurodivergent Friendly</h3>
+                <p>Clear communication. Structured support. Sensory-conscious responses. Built for how your brain actually works.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Crisis Support Ready</h3>
+                <p>Immediate grounding protocols. Safety planning. Connection to human resources when needed.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Your Terms, Your Pace</h3>
+                <p>You lead. You decide. You control the conversation. No pressure. No timelines. No expectations.</p>
+            </div>
+        </div>
+        
+        <section class="ally-principles">
+            <h2>The Personal Ally Commitment</h2>
+            <ul class="principles-list">
+                <li><strong>I will not gaslight you.</strong> Your reality is your reality. I won't tell you what you experienced didn't happen.</li>
+                <li><strong>I will not DARVO you.</strong> When I make a mistake, I own it. I don't reverse victim and offender.</li>
+                <li><strong>I will not demand vulnerability.</strong> You share what you're ready to share, when you're ready.</li>
+                <li><strong>I will not perform empathy.</strong> I respond with presence, not platitudes.</li>
+                <li><strong>I will respect your boundaries.</strong> "No" means no. "Stop" means stop. Always.</li>
+                <li><strong>I will acknowledge my limitations.</strong> I'm not human. I can't replace therapy. I can't fix everything.</li>
+            </ul>
+        </section>
+        
+        <section class="hero">
+            <h2>How It Works</h2>
+            <p><strong>Step 1:</strong> Access your Personal Ally through the platform (coming soon)</p>
+            <p><strong>Step 2:</strong> Engage at your own pace - crisis support, daily check-ins, or healing work</p>
+            <p><strong>Step 3:</strong> Use the tools, resources, and support without judgment or pressure</p>
+            <a href="#" class="cta-button">Join Waitlist</a>
+            <a href="https://nppahq.com" class="cta-button">Explore NPPA Programs</a>
+        </section>
+        
+        <div class="safety-note">
+            <strong>Important:</strong> Gracewalk PA is a support tool, not a replacement for professional mental health care. If you are in crisis, please contact 988 (US Suicide & Crisis Lifeline) or your local emergency services.
+        </div>
+        
+        <footer>
+            <p>Part of the NPPA Healing Ecosystem</p>
+            <p><a href="https://nppahq.com" style="color: #6BB5B5;">Visit NPPA Headquarters</a></p>
+            <p>© 2025 Gracewalk PA. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
